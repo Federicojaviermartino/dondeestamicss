@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+body{
+    background-color: white;
+}
+
+.card{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+form{
+    background-color: white;
+    margin: 20px;
+    border: solid white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 360px;
+}
+.title{
+    margin: 10px;
+    text-align: center ;    
+}
+
+.subtitle{
+    font-size: 15px;
+    display: flex;
+    margin: 0 10px;
+    justify-content: center ;
+
+    font-weight: bold;
+}
+.subtitle a{
+    margin: 0 3px;
+}
+
+.social-login{
+order: 1px solid ;
+    display: flex;
+    height: 40px;
+}
+
+.google-btn {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0px 10px 0px 0px;
+    width: 100%;
+    font-weight: bold;
+
+  }
+  
+  .google-btn img {
+    margin-right: 4px;
+    height: 20px;
+    border-radius: 10px;
+
+  }
+
+.fb-btn{
+    background-color: white;
+    padding: 5px;
+    width: 45px ;
+    border-radius: 5px;
+    border: 2px solid blue;
+    
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+#hr2{ 
+
+    width: 100%;
+    opacity: .4;
+  }
+#hr1{ 
+    width: 100%;
+    opacity: .4;
+  }
+.or{
+    display: flex;
+    text-align: center;
+    margin: 5px;
+    font-weight: bold;
+}
+.email-login{
+    display: flex;
+    flex-direction: column;
+}
+
+.email-login label{
+    color: white;
+}
+.email-login input{
+    opacity: .6;
+    border-radius: 5px;
+    border: 2px solid #c3c0c0;
+    height: 30px;
+}
+
+.cta-btn{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 ;
+    height: 50px;
+    background-color: blue;
+}
+.forget-pass{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
